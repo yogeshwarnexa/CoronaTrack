@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "35859129488",
+    "firebase_url": "https://coronatrack-81f98.firebaseio.com",
+    "project_id": "coronatrack-81f98",
+    "storage_bucket": "coronatrack-81f98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35859129488:android:77f34f428d2cb9127f6415",
+        "android_client_info": {
+          "package_name": "com.nexware.coronaTrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35859129488-ae837npddbk3ader2hcd9o5klomo0sv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nexware.coronaTrack",
+            "certificate_hash": "7ffba40f0118452785977fe98838917096550340"
+          }
+        },
+        {
+          "client_id": "35859129488-26t4am5s0jm1la94o1hjdi7fihcpf4p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6NINOaqCx8UiaqAfo88iIvGHTUm9atOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35859129488-26t4am5s0jm1la94o1hjdi7fihcpf4p0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Track COVID-19</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+
+
+    <!--Firebase-->
+
+    <string name="firebase_username" translatable="false">Email Id*</string>
+    <string name="firebase_emailrequired" translatable="false">Email is required</string>
+    <string name="firebase_namerequired" translatable="false">Name is required</string>
+    <string name="firebase_mobolerequired" translatable="false">Mobile No is required</string>
+    <string name="firebase_Addressrequired" translatable="false">Address is required</string>
+    <string name="firebase_occupation_required" translatable="false">Occupation is required</string>
+    <string name="firebase_emailValidation" translatable="false">Please enter a valid email</string>
+    <string name="firebase_mobileValidation" translatable="false">Please enter a valid mobile</string>
+    <!--Registration-->
+    <string name="registration">Register</string>
+    <string name="name">Name*</string>
+    <string name="mobile">Mobile*</string>
+    <string name="occupation">Occupation*</string>
+    <string name="Address">Address line1*</string>
+    <string name="Address2">Address line2*</string>
+    <string name="district">District*</string>
+    <string name="state">State*</string>
+    <string name="pincode">Pin code*</string>
+
+    <string name="menu_gallery">Reports</string>
+    <string name="menu_slideshow">Patient Register</string>
+
+
+    <!--Covid-19-->
+    <string name="covid19Title">Coronavirus outbreak in </string>
+    <!--Covid19 Values-->
+    <string name="covid19TitleValue">Coronavirus outbreak in World wide</string>
+    <string name="ConfirmedCasesValue">Confirmed Cases</string>
+    <string name="RecoveredCasesValue">Recovered Cases</string>
+    <string name="DeathCasesValue">Death Cases</string>
+    <string name="tutorial_skip">Skip</string>
+    <string name="poweredBy">Powered By</string>
+    <string name="register_here">Others Register Here >>>></string>
+    <string name="login">Login Here >>></string>
+    <string name="Govt.Officials" tools:ignore="ExtraTranslation">Govt.Officials Register Here >>>></string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="userType">user</string>
+    <string name="API">https://api.rootnet.in/covid19-in/stats/latest</string>
+
+    <!--Api-->
+    <string name="total">total</string>
+    <string name="confirmedCasesIndian">confirmedCasesIndian</string>
+    <string name="confirmedCasesForeign">confirmedCasesForeign</string>
+    <string name="discharged">discharged</string>
+    <string name="deaths">deaths</string>
+    <string name="State">State Wise Report >>></string>
+    <string name="infoText">Time to fight this together!</string>
+    <string name="infoGov">Please Follow Government Directives!</string>
+    <string name="toutorial">toutorial</string>
+    <string name="districtValue">districtValue</string>
+    <string name="update">Update</string>
+    <string name="User_info">Your info</string>
+
+    <!--About us info-->
+    <string name="aboutsTitle">WELCOME TO NEXWARE WORLD</string>
+    <string name="aboutComplany">A next generation IT services company focusing on solving the complex problems of business and common people using the cutting edge technologies and innovative brains. We harness the power of emerging technologies (Cloud, IoT, AI…etc) and highly trained human resources to help our clients adapt to the digital  world and make them successful.</string>
+    <string name="serviceTitle">TRENDY SERVICE</string>
+    <string name="serviceOne">Sap Solutions and Services</string>
+    <string name="setviceTwo">Web and Mobile Applications</string>
+    <string name="serviceThree">Cloud and Security Services</string>
+    <string name="servicefour">Business Transformation Services</string>
+    <string name="addressTitle">For More Info</string>
+    <string name="addressCompany">7th Floor, B block, South Wing,\nPricol Caledon Square,\nAvinashi Road,Peelamedu, \nCoimbatore,Tamil Nadu 641004\nLandline :0422 498 2052 \nWebsite: https://www.nexware-global.com/</string>
+    <string name="landline">0422 498 2052</string>
+    <string name="about_us">About us</string>
+</resources>
