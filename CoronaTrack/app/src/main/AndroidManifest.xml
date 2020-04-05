@@ -5,10 +5,18 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
 
     <application
         android:allowBackup="true"
@@ -20,79 +28,80 @@
         android:testOnly="false"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true"
-        tools:ignore="GoogleAppIndexingWarning">
-    <activity
-        android:name=".ui.ui.adminActivity.ApprovalActivity"
-        android:theme="@style/AppTheme"/>
-    <activity
-        android:name=".ui.ui.home.StateChartReport"
-        android:theme="@style/AppTheme" />
-    <activity
-        android:name=".ui.ui.home.StateActivity"
-        android:theme="@style/AppTheme" />
-    <activity android:name=".ui.ui.register.RegisterMainActivity" /> <!-- [START fcm_default_icon] -->
-    <!--
-Set custom default icon. This is used when no icon is set for incoming notification messages.
-         See README(https://goo.gl/l4GJaQ) for more.
-    -->
-    <meta-data
-        android:name="com.google.firebase.messaging.default_notification_icon"
-        android:resource="@drawable/ic_notifications" />
-    <!--
-Set color used with incoming notification messages. This is used when no color is set for the incoming
-         notification message. See README(https://goo.gl/6BKBk7) for more.
-    -->
-    <meta-data
-        android:name="com.google.firebase.messaging.default_notification_color"
-        android:resource="@color/colorAccent" /> <!-- [END fcm_default_icon] -->
-    <!-- [START fcm_default_channel] -->
-    <meta-data
-        android:name="com.google.firebase.messaging.default_notification_channel_id"
-        android:value="@string/default_notification_channel_id" /> <!-- [END fcm_default_channel] -->
-    <activity android:name=".ui.ui.splash.SplashActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="m">
+        <activity
+            android:name=".ui.ui.adminActivity.ApprovalActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.ui.home.StateChartReport"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.ui.home.StateActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.ui.register.RegisterMainActivity" /> <!-- [START fcm_default_icon] -->
+        <!--
+    Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notifications" />
+        <!--
+    Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" /> <!-- [END fcm_default_icon] -->
+        <!-- [START fcm_default_channel] -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" /> <!-- [END fcm_default_channel] -->
+        <activity android:name=".ui.ui.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-    <activity
-        android:name=".ui.ui.register.SenderRegisterActivity"
-        android:theme="@style/AppTheme" />
-    <activity
-        android:name=".ui.ui.register.SignUpActivity"
-        android:theme="@style/AppTheme" />
-    <activity
-        android:name=".ui.ui.autho.WebViewActivity"
-        android:theme="@style/AppTheme" />
-    <activity
-        android:name=".ui.ui.adminActivity.UserActivity"
-        android:theme="@style/AppTheme" />
-    <activity
-        android:name="com.example.coronaaware.ui.ui.splash.FirstWalkthroughActivity"
-        android:launchMode="singleTask"
-        android:screenOrientation="fullSensor"
-        android:theme="@style/NoActionBar" />
-    <activity
-        android:name=".ui.ui.adminActivity.MainActivity"
-        android:theme="@style/AppTheme" />
-    <activity
-        android:name=".ui.ui.offials.OfficalsMainActivity"
-        android:theme="@style/AppTheme" />
-    <activity
-        android:name=".ui.ui.adminActivity.AdminMainActivity"
-        android:theme="@style/AppTheme" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ui.register.SenderRegisterActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.ui.register.SignUpActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.ui.autho.WebViewActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.ui.adminActivity.UserActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.ui.splash.FirstWalkthroughActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ui.ui.adminActivity.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.ui.offials.OfficalsMainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.ui.adminActivity.AdminMainActivity"
+            android:theme="@style/AppTheme" />
 
-    <service
-        android:name=".service.NotificationService"
-        android:exported="false">
-        <intent-filter>
-            <action android:name="com.google.firebase.MESSAGING_EVENT" />
-        </intent-filter>
-    </service>
+        <service
+            android:name=".service.NotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 
-    <activity android:name=".ui.ui.autho.VerifyPhoneActivity" />
-    <activity android:name=".ui.ui.autho.OTPAuthentication" />
+        <activity android:name=".ui.ui.autho.VerifyPhoneActivity" />
+        <activity android:name=".ui.ui.autho.OTPAuthentication" />
     </application>
 
 </manifest>

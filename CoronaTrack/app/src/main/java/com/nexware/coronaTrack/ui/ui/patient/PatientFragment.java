@@ -30,7 +30,6 @@ import androidx.fragment.app.Fragment;
 import com.android.volley.AuthFailureError;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -80,7 +79,7 @@ public class PatientFragment extends Fragment implements View.OnClickListener {
     private Uri imageUri;
     private FirebaseAuth mAuth;
     final private String FCM_API = "https://fcm.googleapis.com/fcm/send";
-    final private String serverKey = "key=" + "AAAAKfkoTOo:APA91bExqgChh45MY6qC6VrFTClULHfKNkpKFcAHA9SdINPS3hZg0P3Gtu9VETmfpMYLTeJdPzoZ87v93NlboH1zCqAA7O6tZMoSASPvKgBPwdeXwMbG4xlRJ4mk0wPP40Oh-EnCHeY5";
+    final private String serverKey = "key=" + "AAAACFle5JA:APA91bFq3hi0aRoJvEn-cir2lRUw-a9o3TPRa7unZRg-rNvVFjh90Ob6eE_MS5dnbvRDe_Txu37yHcXO7ZcaFqgfiqHiW8z9sIqBay8J1_6YNMz2G7f57RDDa2JTVkck8qmpwoUJQYN9";
     final private String contentType = "application/json";
     ProgressDialog progressDialog;
     SharedPreferences sharedpreferences;

@@ -1,3 +1,3 @@
-package com.example.coronaaware.utlies.event
+package com.nexware.coronaTrack.ui.ui.utlies.events
 
 class RetryWalkthroughEvent

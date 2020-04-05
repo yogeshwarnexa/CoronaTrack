@@ -1,4 +1,4 @@
-package com.example.coronaaware.ui.ui.splash
+package com.nexware.coronaTrack.ui.ui.splash
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -7,10 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-
-import com.example.coronaaware.utlies.event.NextPageEvent
 import com.nexware.coronaTrack.R
 import com.nexware.coronaTrack.ui.ui.home.HomeFragment
+import com.nexware.coronaTrack.ui.ui.utlies.events.NextPageEvent
 import kotlinx.android.synthetic.main.fragment_start.*
 import org.greenrobot.eventbus.EventBus
 

@@ -1,4 +1,4 @@
-package com.example.coronaaware.utlies
+package com.nexware.coronaTrack.ui.ui.utlies
 
 import android.annotation.SuppressLint
 import android.content.Context

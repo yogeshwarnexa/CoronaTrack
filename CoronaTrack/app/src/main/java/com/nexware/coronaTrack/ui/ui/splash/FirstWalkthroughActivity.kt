@@ -1,7 +1,8 @@
-package com.example.coronaaware.ui.ui.splash
+package com.nexware.coronaTrack.ui.ui.splash
 
 import android.content.Context
 import android.content.Intent
+
 import com.nexware.coronaTrack.R
 import com.nexware.coronaTrack.ui.ui.autho.OTPAuthentication
 

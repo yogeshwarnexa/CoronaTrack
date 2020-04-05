@@ -1,4 +1,4 @@
-package com.example.coronaaware.ui.ui.splash
+package com.nexware.coronaTrack.ui.ui.splash
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,10 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.viewpager.widget.ViewPager
-
-import com.example.coronaaware.utlies.event.NextPageEvent
-import com.example.coronaaware.utlies.event.RetryWalkthroughEvent
 import com.nexware.coronaTrack.R
+import com.nexware.coronaTrack.ui.ui.utlies.events.NextPageEvent
+import com.nexware.coronaTrack.ui.ui.utlies.events.RetryWalkthroughEvent
 import kotlinx.android.synthetic.main.activity_walkthrough.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe

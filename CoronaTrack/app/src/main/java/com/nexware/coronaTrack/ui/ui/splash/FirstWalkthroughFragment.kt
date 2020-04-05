@@ -1,4 +1,4 @@
-package com.example.coronaaware.ui.ui.splash
+package com.nexware.coronaTrack.ui.ui.splash
 
 import android.os.Bundle
 import android.view.LayoutInflater
