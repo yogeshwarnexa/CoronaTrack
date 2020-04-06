@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/Menu_AboutUs"
-        android:title="About US"/>
+        android:title="About US" />
 
     <item
         android:id="@+id/Menu_AboutUser"
         android:title="About User" />
     <item
         android:id="@+id/Menu_LogOutMenu"
-        android:title="Logout"/>
+        android:title="Logout" />
 </menu>

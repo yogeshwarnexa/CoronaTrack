@@ -6,19 +6,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.nexware.coronaTrack.ui.ui.patient.PatientFragment"
+        android:name="com.nexware.coronaTracknew.ui.ui.patient.PatientFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.nexware.coronaTrack.ui.ui.home.HomeFragment"
+        android:name="com.nexware.coronaTracknew.ui.ui.home.HomeFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.nexware.coronaTrack.ui.ui.reports.ReportsFragment"
+        android:name="com.nexware.coronaTracknew.ui.ui.reports.ReportsFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

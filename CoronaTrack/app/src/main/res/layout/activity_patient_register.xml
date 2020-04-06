@@ -151,7 +151,7 @@
                         android:layout_below="@+id/patient_aadhaar_photo"
                         android:layout_centerInParent="true"
                         android:layout_marginBottom="5dp"
-                        android:background="@drawable/ic_person_black_24dp" />
+                        android:background="@drawable/aadhar" />
 
                     <TextView
                         android:id="@+id/patient_photo_name"

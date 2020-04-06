@@ -48,8 +48,8 @@
                     android:layout_margin="10dp"
                     android:fontFamily="sans-serif"
                     android:hint="@string/mobile"
-                    android:maxLength="13"
                     android:inputType="phone"
+                    android:maxLength="13"
                     android:paddingBottom="15dp"
                     android:textColorHint="@color/colorHint" />
 
@@ -136,8 +136,8 @@
                         android:layout_weight="1.3"
                         android:fontFamily="sans-serif"
                         android:hint="@string/pincode"
-                        android:maxLength="6"
                         android:inputType="number"
+                        android:maxLength="6"
                         android:paddingBottom="15dp"
                         android:textColorHint="@color/colorHint" />
                 </LinearLayout>

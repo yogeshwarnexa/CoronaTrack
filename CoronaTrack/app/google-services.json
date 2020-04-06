@@ -42,6 +42,43 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35859129488:android:14b2da7b104306a67f6415",
+        "android_client_info": {
+          "package_name": "com.nexware.coronaTracknew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35859129488-r4j30dhik8ev34smvv629mkbaktn8198.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nexware.coronaTracknew",
+            "certificate_hash": "7ffba40f0118452785977fe98838917096550340"
+          }
+        },
+        {
+          "client_id": "35859129488-26t4am5s0jm1la94o1hjdi7fihcpf4p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6NINOaqCx8UiaqAfo88iIvGHTUm9atOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35859129488-26t4am5s0jm1la94o1hjdi7fihcpf4p0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"
